@@ -9,6 +9,9 @@ situação de dados enviados e recebidos...
 
 ## Instalação
 
+#### - Pré-requisitos
+    Instalação do Node js
+
 ### Instale conector-bia-frontend via Client
 
 ```bash
@@ -88,6 +91,39 @@ Inicie com: npm run
 ```
 
 
+
+
+
+## Estrutura de pastas do projeto
+
+```sh
+.
+├── .k8s/
+│   ├── scripts/            # 
+│   └── deployment.yml      # 
+├── client/                 #
+│   ├── public/             # 
+│   ├── src/                #
+│   │   ├── assets/images/  # 
+│   │   ├── components/     # 
+│   │   └── pages/          #
+│   ├── .gitignore          # 
+│   ├── README.md           #
+│   ├── package-lock.json   #
+│   └── package.json        #
+│── server/                 #
+│    ├── .env.example       #
+│    ├── .eslintrc.yaml     #
+│    ├── .gitignore         #
+│    ├── nodemon.json       #
+│    ├── package-lock.json  #
+│    ├── package.json       #
+│    └── server.js          #
+├── .dockerignore           #
+├── .gitignore              #
+├── Dockerfile              # 
+└── README.md               # 
+```
 ## Demonstração
 
 ![](https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/SdGzGdSdQqqWQEJNFCsL)
