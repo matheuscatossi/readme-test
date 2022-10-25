@@ -33,34 +33,34 @@ Aplicação que permite gerenciar, identificar e estabelecer uma conexão entre 
 ├── .k8s/
 │   ├── scripts/            # Script de automação do deploy no Kubernetes 
 │   └── deployment.yml      # Configuração de deploy da aplicação no Kubernetes
-├── client/                 #
-│   ├── public/             # 
-│   ├── src/                #
-│   │   ├── assets/images/  # 
-│   │   ├── components/     # 
-│   │   └── pages/          #
-│   ├── .gitignore          # 
-│   ├── README.md           #
-│   ├── package-lock.json   #
-│   └── package.json        #
-│── server/                 #
-│    ├── .env.example       #
-│    ├── .eslintrc.yaml     #
-│    ├── .gitignore         #
-│    ├── nodemon.json       #
+├── client/                 # Pasta via client
+│   ├── public/             # Pasta com assets publicos
+│   ├── src/                # Source principal do projeto
+│   │   ├── assets/images/  # Assets de imagens do projeto
+│   │   ├── components/     # Components repetidos para o uso na aplicação
+│   │   └── pages/          # Páginas da aplicação
+│   ├── .gitignore          # Arquivo de configuração do git para não enviar certos arquivos e pastas
+│   ├── README.md           # Arquivo Readme para demonstração de informações
+│   ├── package-lock.json   # 
+│   └── package.json        # Arquivo package mostrando configurações do projeto com libs e scripts
+│── server/                 # Pasta via server
+│    ├── .env.example       # Arquivo env de exemplo para o projeto
+│    ├── .eslintrc.yaml     # 
+│    ├── .gitignore         # Arquivo de configuração do git para não enviar certos arquivos e pastas
+│    ├── nodemon.json       # 
 │    ├── package-lock.json  #
-│    ├── package.json       #
-│    └── server.js          #
-├── .dockerignore           #
+│    ├── package.json       # Arquivo package mostrando configurações do projeto com libs e scripts
+│    └── server.js          # Arquivo que roda os scripts do server
+├── .dockerignore           # Arquivo para lidar com arquivos e pasta ignorados pelo Docker
 ├── .gitignore              #
 ├── Dockerfile              # 
-└── README.md               # 
+└── README.md               # Arquivo Readme para demonstração de informações
 ```
 ## Bibliotecas utilizadas
 
 **Front-end:** 
 ```bash
-"apexcharts": "^3.35.5",
+"apexcharts": "^3.35.5",      
 "axios": "^0.27.2"
 "bootstrap": "^5.2.2",
 "classnames": "^2.3.2",
