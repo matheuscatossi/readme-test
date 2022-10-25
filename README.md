@@ -5,15 +5,34 @@
 
 # Frontend do Conector Bia
 
+## Tabela de conteúdos
+
+  - [Descrição](#descrição)
+  - [Principais Tecnologias utilizadas](#principais-tecnologias-utilizadas)
+  - [Estrutura de pastas do projeto](#estrutura-de-pastas-do-projeto)
+  - [Bibliotecas utilizadas](#bibliotecas-utilizadas)
+  - [Scripts](#scripts)
+  - [Instalação](#instalação)
+  - [Demonstração](#demonstração)
+
+## Descrição
+
 Aplicação que permite gerenciar, identificar e estabelecer uma conexão entre a Bia e os Fornecedores para extender a capacidade de respostas ao usuário na ponta final do chat.
+
+## Principais Tecnologias utilizadas
+
+| Nome | Descrição | Link |
+| ---  | --- | --- |
+| React.js | Framework javascript | [🔗](https://pt-br.reactjs.org/) 
+| Sass | Linguagem de extensão do css | [🔗](https://sass-lang.com/) 
 
 ## Estrutura de pastas do projeto
 
 ```sh
 .
 ├── .k8s/
-│   ├── scripts/            # 
-│   └── deployment.yml      # 
+│   ├── scripts/            # Script de automação do deploy no Kubernetes 
+│   └── deployment.yml      # Configuração de deploy da aplicação no Kubernetes
 ├── client/                 #
 │   ├── public/             # 
 │   ├── src/                #
@@ -66,15 +85,6 @@ Aplicação que permite gerenciar, identificar e estabelecer uma conexão entre 
 "validator": "^13.7.0",
 "web-vitals": "^2.1.4"
 ```
-
-
-## Variáveis de Ambiente
-
-Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu .env
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
 
 
 ## Scripts
